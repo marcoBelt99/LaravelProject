@@ -46,3 +46,28 @@ Route::get('utenti/{id?}', function ($id=1) {
 Route::get('/', function () {
     return view('home');
 });
+
+Route::get('/news', function () {
+    return view('news');
+});
+
+Route::get('/about', function () {
+    return view('about');
+});
+
+Route::get('/login', function () {
+    return view('login');
+});
+
+// Aggiungo il routing dei Controller creati. In questo caso per il Controller 'UserController'
+Route::get('usermanager', 'App\Http\Controllers\UserController@list');
+Route::get('usermanager/{id}', 'App\Http\Controllers\UserController@show');
+
+/**
+ * TODO: Esiste un modo alternativo per impostare le routes per i Controller (sostituisco alle due righe precedenti questo):
+ * prima importo in cima al file la seguente clausola: 
+ *      use App\Http\Controllers\UserController;
+ * e poi imposto le route nel modo seguente:
+ *      Route::get('usermanager', [UserController::class, 'list']);
+ *      Route::get('usermanager/{id}', [UserController::class, 'show']);
+ */
