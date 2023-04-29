@@ -1,4 +1,4 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+<!-- <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p> 
 
 <p align="center">
 <a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
@@ -64,3 +64,17 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+-->
+## LaravelProject
+Contiene uno scaffolding, una demo di progetto minimale in Laravel nella sua versione 10.X (o precedenti, tipo la 9.X ma ancora da testare su queste versioni antecedenti!).
+<p></p>
+La directory principale e': [LaravelProject]("https://github.com/marcoBelt99/LaravelProject") al cui interno trovo altre cartelle:
+<ul>
+    <li><b>routes/views</b>: per gestire le routes</li>
+    <li><b>resources/views</b>: per gestire le viste</li>
+    <li>...</li>
+</ul>
+
+### Gestione dei dati: Database ed ORM
+
