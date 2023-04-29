@@ -72,4 +72,6 @@ Route::get('usermanager/{id}', 'App\Http\Controllers\UserController@show');
  *      Route::get('usermanager/{id}', [UserController::class, 'show']);
  */
 
- Route::get('articles', 'App\Http\Controllers\ArticleController');
+ // TODO: in questo caso mi riferisco ad un Resource Controller (che implementa REST) e non ad uno normale
+ // pertanto anziche' scrivere Route::get, scrivo: Route::resource
+ Route::resource('articles', 'App\Http\Controllers\ArticleController');
