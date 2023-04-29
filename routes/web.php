@@ -71,3 +71,5 @@ Route::get('usermanager/{id}', 'App\Http\Controllers\UserController@show');
  *      Route::get('usermanager', [UserController::class, 'list']);
  *      Route::get('usermanager/{id}', [UserController::class, 'show']);
  */
+
+ Route::get('articles', 'App\Http\Controllers\ArticleController');
